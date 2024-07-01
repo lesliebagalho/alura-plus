@@ -15,9 +15,6 @@
 }
 
 body{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
@@ -78,14 +75,14 @@ body{
 
 .secundario{
     align-items: center;
-    margin: 0 10em .5em 10em;
+    margin: 0 10em;
 }
 
 .descricao__titulo{
     font-weight: 700;
     font-size: 38px;
     color: var(--branco-principal);
-    margin-bottom: .3em;
+    margin-bottom: .1em;
 }
 
 .descricao__texto{
@@ -124,23 +121,26 @@ body{
 
 .rodape{
     text-align: center;
-    margin: 4em 0;
-}
-
-.rodape__logo{
-    margin-bottom: 2em;
+    margin: 5em 3em;
 }
 
 .rodape__lista{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: .7em;
+    margin-top: 1em;
 }
 
 .lista__link a{
     text-decoration: none;
     color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
 }
 
 .lista__link a:hover{
@@ -156,6 +156,3 @@ body{
     color: var(--cor-de-fundo);
 }
 
-.rodape__texto{
-    margin: 2em 0;;
-}
